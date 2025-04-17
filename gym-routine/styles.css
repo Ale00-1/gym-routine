@@ -1,0 +1,13 @@
+:root{
+    --bgc1: rgb(61, 227, 166);
+    --bgbtn: rgb(81, 167, 217);
+    --txtclr: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bgc1);
+    color: var( --txtclr)
+}
