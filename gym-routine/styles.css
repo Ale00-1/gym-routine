@@ -13,7 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--bgc1);
-    color: var( --txtclr);
+    color: var( --titleclr);
 }
 .main-title h1{
     margin: 0 auto;
@@ -40,8 +40,8 @@
 
 }
 .homepage a {
-    background-color: var(--bgcbtn);
-    border: 2px solid black;
+    background-color: var(--bgctitlee);
+    border: 4px solid var(--titleclr);
     border-radius: 5px;
     padding: 30px;
     transition: background-color 0.5s ease;
@@ -52,4 +52,13 @@
     background-color: var(--bgc2);
     color: var(--txtclr2);
 
+}
+/* ------------------------------------------------------------------------------- */
+.monday-list ol{
+    list-style: none;
+}
+.monday-list h2{
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 16px;
 }
