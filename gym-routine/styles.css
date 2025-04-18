@@ -1,7 +1,11 @@
 :root{
     --bgc1: rgb(61, 227, 166);
-    --bgbtn: rgb(81, 167, 217);
+    --bgc2: rgba(128, 128, 128, 0.832);
+    --bgcbtn: rgb(81, 167, 217);
+    --bgctitle: white;
+    --titleclr: rgb(125, 0, 167);
     --txtclr: black;
+    --txtclr2: rgb(75, 16, 16);
 }
 
 *{
@@ -9,5 +13,44 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--bgc1);
-    color: var( --txtclr)
+    color: var( --txtclr);
+}
+.main-title h1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    width: fit-content;
+    background-color: var(--bgctitle);
+    text-decoration: underline;
+    color:  var(--titleclr);
+    font-size:  4em;
+    border-radius: 10px;
+
+}
+.homepage ul {
+    list-style: none;
+}
+.homepage li {
+    list-style: none;
+}
+.homepage h2 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 12px;
+
+}
+.homepage a {
+    background-color: var(--bgcbtn);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+    transition: color 0.325s ease;
+    text-decoration : none;
+}
+.homepage a:hover  {
+    background-color: var(--bgc2);
+    color: var(--txtclr2);
+
 }
