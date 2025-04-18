@@ -1,11 +1,11 @@
 :root{
-    --bgc1: rgb(61, 227, 166);
-    --bgc2: rgba(128, 128, 128, 0.832);
-    --bgcbtn: rgb(81, 167, 217);
-    --bgctitle: white;
-    --titleclr: rgb(125, 0, 167);
-    --txtclr: black;
-    --txtclr2: rgb(75, 16, 16);
+    --bgc1: #316064;
+    --bgc2: #808080d4;
+    --bgcbtn: #73c0b0;
+    --bgctitle: #4b908e;
+    --titleclr: #b8d7d5;
+    --txtclr: #626270;
+    --txtclr2: #4b1010;
 }
 
 *{
@@ -22,9 +22,8 @@
     margin-bottom: 32px;
     width: fit-content;
     background-color: var(--bgctitle);
-    text-decoration: underline;
     color:  var(--titleclr);
-    font-size:  4em;
+    font-size:  6em;
     border-radius: 10px;
 
 }
@@ -36,15 +35,15 @@
 }
 .homepage h2 {
     text-align: center;
-    padding: 20px;
-    margin-bottom: 12px;
+    padding: 30px;
+    margin-bottom: 24px;
 
 }
 .homepage a {
     background-color: var(--bgcbtn);
     border: 2px solid black;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     transition: background-color 0.5s ease;
     transition: color 0.325s ease;
     text-decoration : none;
