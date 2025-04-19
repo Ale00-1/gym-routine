@@ -54,10 +54,10 @@
 
 }
 /* ------------------------------------------------------------------------------- */
-.monday-list ol{
+.list ol{
     list-style: none;
 }
-.monday-list h2{
+.list h2{
     text-align: center;
     padding: 24px;
     margin-bottom: 16px;
